@@ -2,3 +2,8 @@
 2025-06-30 00:00:10,904 - INFO - Exiting application.
 2025-06-30 00:00:43,499 - INFO - User input: exit
 2025-06-30 00:00:43,500 - INFO - Exiting application.
+2025-06-30 00:15:15,935 - INFO - User input: menu
+2025-06-30 00:15:21,484 - INFO - User input: square 4
+2025-06-30 00:15:21,484 - INFO - Plugin square executed with result: 16.0
+2025-06-30 00:15:31,622 - INFO - User input: exit
+2025-06-30 00:15:31,622 - INFO - Exiting application.
