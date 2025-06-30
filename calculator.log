@@ -11,3 +11,122 @@
 2025-06-30 01:23:31,602 - INFO - Logging test message
 2025-06-30 01:24:24,456 - INFO - Logging test message
 2025-06-30 01:25:04,559 - INFO - Logging test message
+2025-06-30 01:50:49,958 - INFO - User input: exit
+2025-06-30 01:50:49,959 - INFO - Exiting application.
+2025-06-30 01:51:04,720 - INFO - User input: add 5 2
+2025-06-30 01:51:04,721 - INFO - Result of add: 7
+2025-06-30 01:51:12,058 - INFO - User input: subtract 10 5
+2025-06-30 01:51:12,058 - INFO - Result of subtract: 5
+2025-06-30 01:51:19,221 - INFO - User input: multiply 5 2
+2025-06-30 01:51:19,221 - INFO - Result of multiply: 10
+2025-06-30 01:51:24,254 - INFO - User input: divide 10 2
+2025-06-30 01:51:24,254 - INFO - Result of divide: 5
+2025-06-30 01:51:27,835 - INFO - User input: menu
+2025-06-30 01:52:11,096 - INFO - User input: history
+2025-06-30 01:52:11,096 - INFO - Fetching history.
+2025-06-30 01:52:15,186 - INFO - User input: add 5 2
+2025-06-30 01:52:15,187 - INFO - Result of add: 7
+2025-06-30 01:52:22,316 - INFO - User input: subtract 10 5
+2025-06-30 01:52:22,317 - INFO - Result of subtract: 5
+2025-06-30 01:52:28,147 - INFO - User input: multiply 10 2
+2025-06-30 01:52:28,147 - INFO - Result of multiply: 20
+2025-06-30 01:52:35,016 - INFO - User input: divide 20 2
+2025-06-30 01:52:35,016 - INFO - Result of divide: 10
+2025-06-30 01:52:38,300 - INFO - User input: history
+2025-06-30 01:52:38,301 - INFO - Fetching history.
+2025-06-30 01:52:42,965 - INFO - User input: clear
+2025-06-30 01:52:42,965 - INFO - Clearing history.
+2025-06-30 01:53:11,183 - INFO - User input: exit
+2025-06-30 01:53:11,184 - INFO - Exiting application.
+2025-06-30 01:53:29,224 - INFO - User input: add 4 5
+2025-06-30 01:53:29,225 - INFO - Result of add: 9
+2025-06-30 01:53:50,241 - INFO - User input: echo $ log_file
+2025-06-30 01:53:50,241 - WARNING - Unknown command: echo
+2025-06-30 01:53:56,527 - INFO - User input: exit
+2025-06-30 01:53:56,527 - INFO - Exiting application.
+2025-06-30 01:54:20,223 - INFO - User input: menu
+2025-06-30 01:57:38,370 - INFO - User input: add 5 2
+2025-06-30 01:57:38,371 - INFO - Result of add: 7
+2025-06-30 01:57:46,299 - INFO - User input: echo $log_file
+2025-06-30 01:57:46,300 - WARNING - Unknown command: echo
+2025-06-30 01:57:49,972 - INFO - User input: menu
+2025-06-30 02:01:32,399 - INFO - User input: add 2 3
+2025-06-30 02:01:32,400 - INFO - Result of add: 5
+2025-06-30 02:01:34,130 - INFO - User input: menu
+2025-06-30 02:01:42,397 - INFO - User input: exit
+2025-06-30 02:01:42,398 - INFO - Exiting application.
+2025-06-30 02:02:33,875 - INFO - User input: add 3 2
+2025-06-30 02:02:33,875 - INFO - Result of add: 5
+2025-06-30 02:02:38,803 - INFO - User input: subtract 4 2
+2025-06-30 02:02:38,804 - INFO - Result of subtract: 2
+2025-06-30 02:02:44,963 - INFO - User input: multiply 5 2
+2025-06-30 02:02:44,963 - INFO - Result of multiply: 10
+2025-06-30 02:02:49,694 - INFO - User input: divide 10 5
+2025-06-30 02:02:49,694 - INFO - Result of divide: 2
+2025-06-30 02:02:52,850 - INFO - User input: history
+2025-06-30 02:02:52,850 - INFO - Fetching history.
+2025-06-30 02:02:54,968 - INFO - User input: menu
+2025-06-30 02:03:01,622 - INFO - User input: square 2
+2025-06-30 02:03:01,624 - INFO - Plugin square executed with result: 4.0
+2025-06-30 02:03:06,117 - INFO - User input: square 10
+2025-06-30 02:03:06,118 - INFO - Plugin square executed with result: 100.0
+2025-06-30 02:03:12,072 - INFO - User input: history
+2025-06-30 02:03:12,072 - INFO - Fetching history.
+2025-06-30 02:03:21,487 - INFO - User input: exit
+2025-06-30 02:03:21,487 - INFO - Exiting application.
+2025-06-30 02:06:46,758 - INFO - User input: add 3 4
+2025-06-30 02:06:46,758 - INFO - Result of add: 7
+2025-06-30 02:06:52,418 - INFO - User input: subtract 10 5
+2025-06-30 02:06:52,425 - INFO - Result of subtract: 5
+2025-06-30 02:07:04,489 - INFO - User input: multiply 10 2
+2025-06-30 02:07:04,489 - INFO - Result of multiply: 20
+2025-06-30 02:07:13,363 - INFO - User input: divide 10 2
+2025-06-30 02:07:13,363 - INFO - Result of divide: 5
+2025-06-30 02:07:21,958 - INFO - User input: divide 2 0
+2025-06-30 02:07:21,959 - ERROR - Error occurred: Cannot divide by zero
+2025-06-30 02:07:33,509 - INFO - User input: menu
+2025-06-30 02:07:46,019 - INFO - User input: square 3
+2025-06-30 02:07:46,019 - INFO - Plugin square executed with result: 9.0
+2025-06-30 02:07:49,768 - INFO - User input: square 10
+2025-06-30 02:07:49,768 - INFO - Plugin square executed with result: 100.0
+2025-06-30 02:08:01,804 - INFO - User input: history
+2025-06-30 02:08:01,804 - INFO - Fetching history.
+2025-06-30 02:08:23,446 - INFO - User input: history
+2025-06-30 02:08:23,446 - INFO - Fetching history.
+2025-06-30 02:08:26,877 - INFO - User input: add 5 2
+2025-06-30 02:08:26,877 - INFO - Result of add: 7
+2025-06-30 02:08:31,078 - INFO - User input: subtract 10 2
+2025-06-30 02:08:31,078 - INFO - Result of subtract: 8
+2025-06-30 02:08:39,257 - INFO - User input: multiply 10 2
+2025-06-30 02:08:39,257 - INFO - Result of multiply: 20
+2025-06-30 02:08:42,378 - INFO - User input: divide 10 2
+2025-06-30 02:08:42,378 - INFO - Result of divide: 5
+2025-06-30 02:08:45,329 - INFO - User input: history
+2025-06-30 02:08:45,330 - INFO - Fetching history.
+2025-06-30 02:08:49,954 - INFO - User input: menu
+2025-06-30 02:08:52,979 - INFO - User input: save
+2025-06-30 02:08:52,979 - WARNING - Unknown command: save
+2025-06-30 02:09:17,027 - INFO - User input: clear
+2025-06-30 02:09:17,028 - INFO - Clearing history.
+2025-06-30 02:09:19,823 - INFO - User input: history
+2025-06-30 02:09:19,823 - INFO - Fetching history.
+2025-06-30 02:09:30,310 - INFO - User input: exit
+2025-06-30 02:09:30,311 - INFO - Exiting application.
+2025-06-30 02:10:15,864 - INFO - User input: save
+2025-06-30 02:10:15,865 - WARNING - Unknown command: save
+2025-06-30 02:10:17,130 - INFO - User input: laod
+2025-06-30 02:10:17,130 - WARNING - Unknown command: laod
+2025-06-30 02:10:18,749 - INFO - User input: load
+2025-06-30 02:10:18,750 - WARNING - Unknown command: load
+2025-06-30 02:10:22,604 - INFO - User input: menu
+2025-06-30 02:10:22,080 - INFO - User input: load
+2025-06-30 02:10:22,088 - WARNING - Unknown command: load
+2025-06-30 02:10:38,825 - INFO - User input: add 4 2 save
+2025-06-30 02:10:38,825 - ERROR - Error occurred: Usage: <operation> <num1> <num2>
+2025-06-30 02:10:45,594 - INFO - User input: save 2 1
+2025-06-30 02:10:45,594 - WARNING - Unknown command: save
+2025-06-30 02:10:55,336 - INFO - User input: delete
+2025-06-30 02:10:55,336 - WARNING - Unknown command: delete
+2025-06-30 02:10:58,766 - INFO - User input: menu
+2025-06-30 02:28:36,298 - INFO - User input: exit
+2025-06-30 02:28:36,298 - INFO - Exiting application.
