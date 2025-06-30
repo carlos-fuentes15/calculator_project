@@ -4,10 +4,11 @@ from calculator import Calculator
 from calculator.calculations import Calculations
 from calculator.logger import get_logger
 from calculator.plugin_loader import load_plugins
+from calculator.history import History
+from calculator.calculation import Calculation
 
 logger = get_logger()
 
-# Load plugins and store commands in a single dictionary
 plugin_commands = {}
 for plugin in load_plugins():
     plugin_commands.update(plugin.register())
@@ -58,7 +59,7 @@ def handle_plugin_command(command, args):
 def repl():
     """Run the calculator's REPL loop."""
     print("Welcome to the Advanced Calculator!")
-    print("Commands: add, subtract, multiply, divide, history, clear, menu, exit")
+    print("Commands: add, subtract, multiply, divide, history, clear, save, load, delete, menu, exit")
 
     while True:
         user_input = input(">>> ").strip().lower()
@@ -82,7 +83,38 @@ def repl():
         if user_input == "clear":
             logger.info("Clearing history.")
             Calculations.clear_history()
+            History.clear_history()
             print("History cleared.")
+            continue
+
+        if user_input == "save":
+            try:
+                History.save_history()
+                print("History saved to CSV.")
+                logger.info("History saved.")
+            except Exception as e:
+                logger.error("Save failed: %s", e)
+                print(f"Error saving history: {e}")
+            continue
+
+        if user_input == "load":
+            try:
+                History.load_history()
+                print("History loaded from CSV.")
+                logger.info("History loaded.")
+            except Exception as e:
+                logger.error("Load failed: %s", e)
+                print(f"Error loading history: {e}")
+            continue
+
+        if user_input == "delete":
+            try:
+                History.delete_history_file()
+                print("History file deleted.")
+                logger.info("History file deleted.")
+            except Exception as e:
+                logger.error("Delete failed: %s", e)
+                print(f"Error deleting history file: {e}")
             continue
 
         tokens = user_input.split()
@@ -97,10 +129,22 @@ def repl():
                 result = handle_builtin_operation(command, args)
                 print(f"Result: {result}")
                 logger.info("Result of %s: %s", command, result)
+
+                a, b = parse_args(args)
+                operation_func = {
+                    "add": Calculator.add,
+                    "subtract": Calculator.subtract,
+                    "multiply": Calculator.multiply,
+                    "divide": Calculator.divide,
+                }[command]
+                calc = Calculation.create(a, b, operation_func)
+                History.add_calculation(calc)
+
             elif command in plugin_commands:
                 result = handle_plugin_command(command, args)
                 print(f"Plugin Result: {result}")
                 logger.info("Plugin %s executed with result: %s", command, result)
+
             else:
                 logger.warning("Unknown command: %s", command)
                 print("Unknown command. Try 'menu' to see available options.")
