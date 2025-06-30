@@ -2,11 +2,15 @@
 from decimal import Decimal, InvalidOperation
 from calculator import Calculator
 from calculator.calculations import Calculations
-from calculator.logger import setup_logger
+from calculator.logger import get_logger
 from calculator.plugin_loader import load_plugins
 
-logger = setup_logger()
-plugin_commands = load_plugins()
+logger = get_logger()
+
+# Load plugins and store commands in a single dictionary
+plugin_commands = {}
+for plugin in load_plugins():
+    plugin_commands.update(plugin.register())
 
 
 def show_menu():
@@ -45,7 +49,8 @@ def handle_builtin_operation(command, args):
 def handle_plugin_command(command, args):
     """Execute a plugin command."""
     try:
-        return plugin_commands[command](*args)
+        decimal_args = [Decimal(arg) for arg in args]
+        return plugin_commands[command](*decimal_args)
     except (TypeError, ValueError, KeyError) as e:
         raise RuntimeError(f"Plugin error: {e}") from e
 
