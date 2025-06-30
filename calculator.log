@@ -130,3 +130,189 @@
 2025-06-30 02:10:58,766 - INFO - User input: menu
 2025-06-30 02:28:36,298 - INFO - User input: exit
 2025-06-30 02:28:36,298 - INFO - Exiting application.
+2025-06-30 02:44:22,035 - INFO - User input: add 2
+2025-06-30 02:44:22,036 - ERROR - Error occurred: Usage: <operation> <num1> <num2>
+2025-06-30 02:44:22,718 - INFO - User input: add 2 3
+2025-06-30 02:44:22,718 - INFO - Result of add: 5
+2025-06-30 02:44:26,008 - INFO - User input: save
+2025-06-30 02:44:26,009 - ERROR - Save failed: No history to save.
+2025-06-30 02:44:33,545 - INFO - User input: add 2 4
+2025-06-30 02:44:33,545 - INFO - Result of add: 6
+2025-06-30 02:44:42,973 - INFO - User input: subtract 4 2
+2025-06-30 02:44:42,973 - INFO - Result of subtract: 2
+2025-06-30 02:44:51,160 - INFO - User input: multiply 10 2
+2025-06-30 02:44:51,161 - INFO - Result of multiply: 20
+2025-06-30 02:44:53,241 - INFO - User input: divide 10 2
+2025-06-30 02:44:53,241 - INFO - Result of divide: 5
+2025-06-30 02:44:55,811 - INFO - User input: save
+2025-06-30 02:44:55,812 - ERROR - Save failed: No history to save.
+2025-06-30 02:45:02,250 - INFO - User input: history
+2025-06-30 02:45:02,250 - INFO - Fetching history.
+2025-06-30 02:45:03,886 - INFO - User input: save
+2025-06-30 02:45:03,887 - ERROR - Save failed: No history to save.
+2025-06-30 02:45:07,550 - INFO - User input: load
+2025-06-30 02:45:07,551 - ERROR - Load failed: History file not found.
+2025-06-30 02:45:14,211 - INFO - User input: delete
+2025-06-30 02:45:14,212 - ERROR - Delete failed: No history file to delete.
+2025-06-30 02:45:27,655 - INFO - User input: history
+2025-06-30 02:45:27,656 - INFO - Fetching history.
+2025-06-30 02:48:01,605 - INFO - User input: exit
+2025-06-30 02:48:01,605 - INFO - Exiting application.
+2025-06-30 02:48:08,182 - INFO - User input: add 2 4
+2025-06-30 02:48:08,183 - INFO - Result of add: 6
+2025-06-30 02:48:11,907 - INFO - User input: subtract 10 2
+2025-06-30 02:48:11,907 - INFO - Result of subtract: 8
+2025-06-30 02:48:14,651 - INFO - User input: save
+2025-06-30 02:48:14,651 - ERROR - Save failed: 'decimal.Decimal' object has no attribute '__name__'
+2025-06-30 02:48:19,798 - INFO - User input: clear
+2025-06-30 02:48:19,799 - INFO - Clearing history.
+2025-06-30 02:48:22,078 - INFO - User input: load
+2025-06-30 02:48:22,079 - ERROR - Load failed: History file not found.
+2025-06-30 02:48:24,775 - INFO - User input: save
+2025-06-30 02:48:24,775 - ERROR - Save failed: No history to save.
+2025-06-30 02:48:26,600 - INFO - User input: add 2 3
+2025-06-30 02:48:26,601 - INFO - Result of add: 5
+2025-06-30 02:48:28,513 - INFO - User input: save
+2025-06-30 02:48:28,513 - ERROR - Save failed: 'decimal.Decimal' object has no attribute '__name__'
+2025-06-30 02:51:04,153 - INFO - User input: exit
+2025-06-30 02:51:04,167 - INFO - Exiting application.
+2025-06-30 02:51:08,808 - INFO - User input: add 3 2
+2025-06-30 02:51:08,809 - INFO - Result of add: 5
+2025-06-30 02:51:10,879 - INFO - User input: save
+2025-06-30 02:51:10,901 - INFO - History saved.
+2025-06-30 02:51:16,978 - INFO - User input: exit
+2025-06-30 02:51:16,979 - INFO - Exiting application.
+2025-06-30 02:51:22,911 - INFO - User input: load
+2025-06-30 02:51:22,937 - INFO - History loaded.
+2025-06-30 02:51:28,985 - INFO - User input: history
+2025-06-30 02:51:28,985 - INFO - Fetching history.
+2025-06-30 02:51:33,398 - INFO - User input: history
+2025-06-30 02:51:33,398 - INFO - Fetching history.
+2025-06-30 02:51:39,464 - INFO - User input: add 2 4
+2025-06-30 02:51:39,465 - INFO - Result of add: 6
+2025-06-30 02:51:41,779 - INFO - User input: history
+2025-06-30 02:51:41,779 - INFO - Fetching history.
+2025-06-30 02:51:46,007 - INFO - User input: save
+2025-06-30 02:51:46,013 - INFO - History saved.
+2025-06-30 02:51:49,451 - INFO - User input: clear
+2025-06-30 02:51:49,451 - INFO - Clearing history.
+2025-06-30 02:51:52,656 - INFO - User input: load
+2025-06-30 02:51:52,660 - INFO - History loaded.
+2025-06-30 02:51:54,759 - INFO - User input: history
+2025-06-30 02:51:54,759 - INFO - Fetching history.
+2025-06-30 02:51:56,176 - INFO - User input: 
+2025-06-30 02:51:56,361 - INFO - User input: 
+2025-06-30 02:56:09,942 - INFO - User input: exit
+2025-06-30 02:56:09,956 - INFO - Exiting application.
+2025-06-30 02:57:38,286 - INFO - User input: add 2 4
+2025-06-30 02:57:38,304 - INFO - Result of add: 6
+2025-06-30 02:57:42,210 - INFO - User input: add 8 6
+2025-06-30 02:57:42,211 - INFO - Result of add: 14
+2025-06-30 02:57:43,727 - INFO - User input: save
+2025-06-30 02:57:43,754 - INFO - History saved.
+2025-06-30 02:57:50,279 - INFO - User input: clear
+2025-06-30 02:57:50,279 - INFO - Clearing history.
+2025-06-30 02:57:52,323 - INFO - User input: load
+2025-06-30 02:57:52,334 - INFO - History loaded.
+2025-06-30 02:57:55,258 - INFO - User input: history
+2025-06-30 02:57:55,258 - INFO - Fetching history.
+2025-06-30 02:57:59,475 - INFO - User input: delete
+2025-06-30 02:57:59,475 - INFO - History file deleted.
+2025-06-30 02:58:02,349 - INFO - User input: history
+2025-06-30 02:58:02,349 - INFO - Fetching history.
+2025-06-30 02:58:08,871 - INFO - User input: clear
+2025-06-30 02:58:08,872 - INFO - Clearing history.
+2025-06-30 02:58:10,790 - INFO - User input: history
+2025-06-30 02:58:10,790 - INFO - Fetching history.
+2025-06-30 02:58:20,194 - INFO - User input: exit
+2025-06-30 02:58:20,195 - INFO - Exiting application.
+2025-06-30 02:58:26,059 - INFO - User input: history
+2025-06-30 02:58:26,060 - INFO - Fetching history.
+2025-06-30 02:59:46,365 - INFO - User input: add 2 4
+2025-06-30 02:59:46,380 - INFO - Result of add: 6
+2025-06-30 02:59:49,155 - INFO - User input: add 9 7
+2025-06-30 02:59:49,155 - INFO - Result of add: 16
+2025-06-30 02:59:50,243 - INFO - User input: save
+2025-06-30 02:59:50,260 - INFO - History saved.
+2025-06-30 02:59:53,329 - INFO - User input: delete
+2025-06-30 02:59:53,329 - INFO - History file deleted.
+2025-06-30 03:00:00,512 - INFO - User input: history
+2025-06-30 03:00:00,512 - INFO - Fetching history.
+2025-06-30 03:00:11,559 - INFO - User input: save
+2025-06-30 03:00:11,562 - INFO - History saved.
+2025-06-30 03:00:14,697 - INFO - User input: delete
+2025-06-30 03:00:14,698 - INFO - History file deleted.
+2025-06-30 03:00:17,192 - INFO - User input: history
+2025-06-30 03:00:17,192 - INFO - Fetching history.
+2025-06-30 03:01:00,073 - INFO - User input: exit
+2025-06-30 03:01:00,073 - INFO - Exiting application.
+2025-06-30 03:01:06,282 - INFO - User input: history
+2025-06-30 03:01:06,283 - INFO - Fetching history.
+2025-06-30 03:01:08,831 - INFO - User input: add 2 4
+2025-06-30 03:01:08,831 - INFO - Result of add: 6
+2025-06-30 03:01:13,168 - INFO - User input: add 8 5
+2025-06-30 03:01:13,169 - INFO - Result of add: 13
+2025-06-30 03:01:16,077 - INFO - User input: history
+2025-06-30 03:01:16,077 - INFO - Fetching history.
+2025-06-30 03:01:20,653 - INFO - User input: clear
+2025-06-30 03:01:20,653 - INFO - Clearing history.
+2025-06-30 03:01:23,712 - INFO - User input: history
+2025-06-30 03:01:23,712 - INFO - Fetching history.
+2025-06-30 03:01:31,606 - INFO - User input: delete
+2025-06-30 03:01:31,607 - ERROR - Delete failed: No history file to delete.
+2025-06-30 03:01:44,383 - INFO - User input: history
+2025-06-30 03:01:44,384 - INFO - Fetching history.
+2025-06-30 03:01:47,430 - INFO - User input: add 2 3
+2025-06-30 03:01:47,431 - INFO - Result of add: 5
+2025-06-30 03:01:50,189 - INFO - User input: history
+2025-06-30 03:01:50,189 - INFO - Fetching history.
+2025-06-30 03:01:59,262 - INFO - User input: delte
+2025-06-30 03:01:59,262 - WARNING - Unknown command: delte
+2025-06-30 03:02:01,203 - INFO - User input: delete
+2025-06-30 03:02:01,203 - ERROR - Delete failed: No history file to delete.
+2025-06-30 03:02:11,098 - INFO - User input: add 3 5
+2025-06-30 03:02:11,098 - INFO - Result of add: 8
+2025-06-30 03:02:13,883 - INFO - User input: add 8 2
+2025-06-30 03:02:13,883 - INFO - Result of add: 10
+2025-06-30 03:02:16,425 - INFO - User input: delete
+2025-06-30 03:02:16,426 - ERROR - Delete failed: No history file to delete.
+2025-06-30 03:02:19,509 - INFO - User input: history
+2025-06-30 03:02:19,509 - INFO - Fetching history.
+2025-06-30 03:02:20,936 - INFO - User input: save
+2025-06-30 03:02:20,972 - INFO - History saved.
+2025-06-30 03:02:29,697 - INFO - User input: delete
+2025-06-30 03:02:29,697 - INFO - History file deleted.
+2025-06-30 03:02:32,841 - INFO - User input: history
+2025-06-30 03:02:32,842 - INFO - Fetching history.
+2025-06-30 03:02:39,528 - INFO - User input: history
+2025-06-30 03:02:39,528 - INFO - Fetching history.
+2025-06-30 03:02:43,218 - INFO - User input: delete
+2025-06-30 03:02:43,218 - ERROR - Delete failed: No history file to delete.
+2025-06-30 03:02:46,278 - INFO - User input: history
+2025-06-30 03:02:46,278 - INFO - Fetching history.
+2025-06-30 03:02:50,237 - INFO - User input: clear
+2025-06-30 03:02:50,237 - INFO - Clearing history.
+2025-06-30 03:05:04,231 - INFO - User input: history
+2025-06-30 03:05:04,232 - INFO - Fetching history.
+2025-06-30 03:05:05,242 - INFO - User input: exit
+2025-06-30 03:05:05,243 - INFO - Exiting application.
+2025-06-30 03:05:10,760 - INFO - User input: history
+2025-06-30 03:05:10,761 - INFO - Fetching history.
+2025-06-30 03:05:12,700 - INFO - User input: add 2 3
+2025-06-30 03:05:12,701 - INFO - Result of add: 5
+2025-06-30 03:05:14,767 - INFO - User input: history
+2025-06-30 03:05:14,767 - INFO - Fetching history.
+2025-06-30 03:05:17,648 - INFO - User input: delete
+2025-06-30 03:05:17,649 - ERROR - Delete failed: No history file to delete.
+2025-06-30 03:05:20,934 - INFO - User input: save
+2025-06-30 03:05:20,938 - INFO - History saved.
+2025-06-30 03:05:23,083 - INFO - User input: history
+2025-06-30 03:05:23,083 - INFO - Fetching history.
+2025-06-30 03:05:25,866 - INFO - User input: delete
+2025-06-30 03:05:25,867 - INFO - History file deleted.
+2025-06-30 03:05:33,917 - INFO - User input: history
+2025-06-30 03:05:33,918 - INFO - Fetching history.
+2025-06-30 03:05:37,422 - INFO - User input: clear
+2025-06-30 03:05:37,422 - INFO - Clearing history.
+2025-06-30 03:05:50,184 - INFO - User input: exit
+2025-06-30 03:05:50,184 - INFO - Exiting application.
