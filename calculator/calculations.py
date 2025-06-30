@@ -1,8 +1,12 @@
-from decimal import Decimal
-from typing import Callable, List
+"""Manages the list of past calculations."""
+
+from typing import List
 from calculator.calculation import Calculation
 
+
 class Calculations:
+    """Handles the history operations for all calculations."""
+
     history: List[Calculation] = []
 
     @classmethod
@@ -22,7 +26,7 @@ class Calculations:
 
     @classmethod
     def get_latest(cls) -> Calculation:
-        """Get the latest calculation. Returns None if there's no history."""
+        """Get the latest calculation."""
         if cls.history:
             return cls.history[-1]
         return None

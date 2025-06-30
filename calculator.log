@@ -7,3 +7,7 @@
 2025-06-30 00:15:21,484 - INFO - Plugin square executed with result: 16.0
 2025-06-30 00:15:31,622 - INFO - User input: exit
 2025-06-30 00:15:31,622 - INFO - Exiting application.
+2025-06-30 01:22:42,491 - INFO - Logging test message
+2025-06-30 01:23:31,602 - INFO - Logging test message
+2025-06-30 01:24:24,456 - INFO - Logging test message
+2025-06-30 01:25:04,559 - INFO - Logging test message

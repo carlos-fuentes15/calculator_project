@@ -1,19 +1,25 @@
-
-
+"""Plugin loader for calculator plugins."""
 import os
 import importlib.util
+import pathlib
 
-def load_plugins(plugin_dir="calculator/plugins"):
-    commands = {}
-    for filename in os.listdir(plugin_dir):
-        if filename.endswith(".py") and filename != "__init__.py":
-            module_name = filename[:-3]
-            file_path = os.path.join(plugin_dir, filename)
-            spec = importlib.util.spec_from_file_location(module_name, file_path)
+PLUGINS_DIR = os.path.join(os.path.dirname(__file__), "plugins")
+
+
+def load_plugins():
+    """Dynamically load all plugins in the plugins directory."""
+    plugins = []
+    plugin_path = pathlib.Path(PLUGINS_DIR)
+
+    for plugin_file in plugin_path.glob("*.py"):
+        if plugin_file.name == "__init__.py":
+            continue
+
+        spec = importlib.util.spec_from_file_location(
+            plugin_file.stem, plugin_file
+        )
+        if spec and spec.loader:
             module = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(module)
-
-            if hasattr(module, "register"):
-                new_cmds = module.register()
-                commands.update(new_cmds)
-    return commands
+            plugins.append(module)
+    return plugins
