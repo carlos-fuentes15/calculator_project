@@ -1,20 +1,27 @@
-from calculator.calculation import Calculation
+"""Manages the history of calculations."""
 
-class Calculations:
-    history = []
 
-    @classmethod
-    def add_calculation(cls, calculation: Calculation) -> None:
-        cls.history.append(calculation)
+class History:
+    """Class to store and manage calculation history."""
 
-    @classmethod
-    def last(cls) -> Calculation:
-        return cls.history[-1] if cls.history else None
+    history_list = []
 
-    @classmethod
-    def clear(cls) -> None:
-        cls.history.clear()
+    @staticmethod
+    def add_calculation(calculation):
+        """Add a calculation to the history."""
+        History.history_list.append(calculation)
 
-    @classmethod
-    def count(cls) -> int:
-        return len(cls.history)
+    @staticmethod
+    def get_last_calculation():
+        """Return the last calculation."""
+        return History.history_list[-1] if History.history_list else None
+
+    @staticmethod
+    def clear_history():
+        """Clear the history list."""
+        History.history_list.clear()
+
+    @staticmethod
+    def count():
+        """Return the number of stored calculations."""
+        return len(History.history_list)
