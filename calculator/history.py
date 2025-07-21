@@ -9,7 +9,6 @@ class History:
     """Class to store and manage calculation history."""
     history_list = []
     history_file = os.getenv("HISTORY_FILE", "history.csv")
-    Calculations.history = history_list  # Keep in sync
 
     @staticmethod
     def add_calculation(calculation):
